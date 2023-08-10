@@ -1,5 +1,4 @@
 import React from "react";
-import Fade from "react-reveal/Fade";
 
 const IconCard = ({ icon, title, text, full, half }) => {
   return (
@@ -17,11 +16,9 @@ const IconCard = ({ icon, title, text, full, half }) => {
       </div>
 
       <div className="p-px space-y-7 md:space-y-3 lg:space-y-7 md:w-2/3 lg:w-auto">
-        <Fade left cascade>
-          <h1 className="text-lg tracking-widest text-center uppercase md:text-left lg:text-center">
-            {title}
-          </h1>
-        </Fade>
+        <h1 className="text-lg tracking-widest text-center uppercase md:text-left lg:text-center">
+          {title}
+        </h1>
 
         <p className="text-sm text-center md:text-left lg:text-center">
           {text}

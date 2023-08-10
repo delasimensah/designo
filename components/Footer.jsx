@@ -50,52 +50,46 @@ const Footer = () => {
         </div>
 
         <div className="grid space-y-7 md:space-y-0 md:grid-cols-3 lg:grid-cols-4 md:py-8">
-          <Fade left cascade>
-            <div className="text-center md:text-left">
-              <p>Designo Central Office</p>
-              <p>3886 Wellington Street</p>
-              <p>Toronto, Ontario M9C 3J5</p>
-            </div>
-          </Fade>
+          <div className="text-center md:text-left">
+            <p>Designo Central Office</p>
+            <p>3886 Wellington Street</p>
+            <p>Toronto, Ontario M9C 3J5</p>
+          </div>
 
-          <Fade left cascade>
-            <div className="text-center md:text-left">
-              <p>Contact Us (Central Office)</p>
-              <p>P : +1 253-863-8967</p>
-              <p>M : contact@designo.co</p>
-            </div>
-          </Fade>
+          <div className="text-center md:text-left">
+            <p>Contact Us (Central Office)</p>
+            <p>P : +1 253-863-8967</p>
+            <p>M : contact@designo.co</p>
+          </div>
 
           <div className="flex items-center justify-center md:items-end md:justify-end lg:col-span-2">
-            <Fade left cascade>
-              <div className="flex items-center space-x-3">
-                <img
-                  src="/assets/shared/desktop/icon-facebook.svg"
-                  alt="facebook"
-                  className="cursor-pointer filter hover:brightness-125"
-                />
-                <img
-                  src="/assets/shared/desktop/icon-youtube.svg"
-                  alt="youtube"
-                  className="cursor-pointer filter hover:brightness-125"
-                />
-                <img
-                  src="/assets/shared/desktop/icon-twitter.svg"
-                  alt="twitter"
-                  className="cursor-pointer filter hover:brightness-125"
-                />
-                <img
-                  src="/assets/shared/desktop/icon-pinterest.svg"
-                  alt="pinterest"
-                  className="cursor-pointer filter hover:brightness-125"
-                />
-                <img
-                  src="/assets/shared/desktop/icon-instagram.svg"
-                  alt="instagram"
-                  className="cursor-pointer filter hover:brightness-125"
-                />
-              </div>
-            </Fade>
+            <div className="flex items-center space-x-3">
+              <img
+                src="/assets/shared/desktop/icon-facebook.svg"
+                alt="facebook"
+                className="cursor-pointer filter hover:brightness-125"
+              />
+              <img
+                src="/assets/shared/desktop/icon-youtube.svg"
+                alt="youtube"
+                className="cursor-pointer filter hover:brightness-125"
+              />
+              <img
+                src="/assets/shared/desktop/icon-twitter.svg"
+                alt="twitter"
+                className="cursor-pointer filter hover:brightness-125"
+              />
+              <img
+                src="/assets/shared/desktop/icon-pinterest.svg"
+                alt="pinterest"
+                className="cursor-pointer filter hover:brightness-125"
+              />
+              <img
+                src="/assets/shared/desktop/icon-instagram.svg"
+                alt="instagram"
+                className="cursor-pointer filter hover:brightness-125"
+              />
+            </div>
           </div>
         </div>
       </div>
