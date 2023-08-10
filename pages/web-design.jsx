@@ -1,5 +1,4 @@
 import React from "react";
-import Fade from "react-reveal/Fade";
 
 //components
 import PageTemplate from "../components/PageTemplate";
@@ -61,21 +60,17 @@ const WebDesign = () => {
       </div>
 
       <div className="container grid gap-5 lg:grid-cols-2">
-        <Fade top>
-          <ProjectLink
-            className="bg-app-design"
-            title="app design"
-            link="/app-design"
-          />
-        </Fade>
+        <ProjectLink
+          className="bg-app-design"
+          title="app design"
+          link="/app-design"
+        />
 
-        <Fade bottom>
-          <ProjectLink
-            className="bg-graphic-design"
-            title="graphic design"
-            link="/graphic-design"
-          />
-        </Fade>
+        <ProjectLink
+          className="bg-graphic-design"
+          title="graphic design"
+          link="/graphic-design"
+        />
       </div>
     </PageTemplate>
   );

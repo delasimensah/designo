@@ -23,7 +23,7 @@ const ProjectLink = ({ className, title, link }) => {
           />
         </div>
 
-        <div className="absolute w-full bg-black bg-opacity-80 h-800 group-hover:bg-lightPeach group-hover:bg-opacity-80"></div>
+        <div className="absolute w-full transition-all duration-300 bg-black bg-opacity-80 h-800 group-hover:bg-lightPeach group-hover:bg-opacity-80"></div>
       </a>
     </Link>
   );
