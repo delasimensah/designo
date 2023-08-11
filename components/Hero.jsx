@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import Fade from "react-reveal/Fade";
+// import Fade from "react-reveal/Fade";
 
 const Hero = () => {
   return (
@@ -9,31 +9,29 @@ const Hero = () => {
       <img
         src="/assets/home/desktop/bg-pattern-hero-home.svg"
         alt=""
-        className="absolute transform scale-150 md:scale-90 lg:scale-100 top-40 md:top-16 lg:top-0 -right-24 lg:right-0 md:-right-36"
+        className="absolute transform scale-150 border md:scale-90 lg:scale-100 top-40 md:top-16 lg:top-0 -right-24 lg:right-0 md:-right-36"
         style={{ zIndex: -1 }}
       />
 
-      <div className="pt-10 space-y-10 text-white lg:w-3/5 md:pt-16 lg:py-16 xl:py-16">
-        <Fade left distance="40px">
-          <h1 className="text-2xl font-medium text-center md:text-4xl xl:text-5xl lg:text-left">
-            Award-winnning custom designs and digital branding solutions
-          </h1>
+      <div className="pt-10 space-y-10 text-white border lg:w-3/5 md:pt-16 lg:py-16 xl:py-16">
+        <h1 className="text-2xl font-medium text-center md:text-4xl xl:text-5xl lg:text-left">
+          Award-winnning custom designs and digital branding solutions
+        </h1>
 
-          <p className="leading-snug text-center xl:w-4/5 lg:text-left">
-            With over 10 years in the industry, we are experienced in creating
-            fully responsive websites, app design, and engaging brand
-            experiences. Find out more about our services.
-          </p>
+        <p className="leading-snug text-center xl:w-4/5 lg:text-left">
+          With over 10 years in the industry, we are experienced in creating
+          fully responsive websites, app design, and engaging brand experiences.
+          Find out more about our services.
+        </p>
 
-          <div className="flex justify-center lg:justify-start">
-            <Link href="/our-company">
-              <a className="btn">learn more</a>
-            </Link>
-          </div>
-        </Fade>
+        <div className="flex justify-center lg:justify-start">
+          <Link href="/our-company">
+            <a className="btn">learn more</a>
+          </Link>
+        </div>
       </div>
 
-      <div className="flex justify-center">
+      <div className="flex justify-center border">
         <img
           src="/assets/home/desktop/image-hero-phone.png"
           alt="phone"
