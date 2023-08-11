@@ -1,10 +1,10 @@
 import React from "react";
 import Link from "next/link";
-import Zoom from "react-reveal/Zoom";
+import Fade from "react-reveal/Fade";
 
 const Hero = () => {
   return (
-    <Zoom>
+    <Fade distance="40px" top>
       <header className="relative px-12 overflow-hidden lg:flex lg:justify-between bg-peach md:px-20 h-650 md:h-750 lg:h-auto banner">
         {/* pattern */}
         <img
@@ -41,7 +41,7 @@ const Hero = () => {
           />
         </div>
       </header>
-    </Zoom>
+    </Fade>
   );
 };
 
