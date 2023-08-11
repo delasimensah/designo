@@ -13,8 +13,8 @@ const Hero = () => {
         style={{ zIndex: -1 }}
       />
 
-      <Fade left distance="40px">
-        <div className="pt-10 space-y-10 text-white lg:w-3/5 md:pt-16 lg:py-16 xl:py-16">
+      <div className="pt-10 space-y-10 text-white lg:w-3/5 md:pt-16 lg:py-16 xl:py-16">
+        <Fade left distance="40px">
           <h1 className="text-2xl font-medium text-center md:text-4xl xl:text-5xl lg:text-left">
             Award-winnning custom designs and digital branding solutions
           </h1>
@@ -30,8 +30,8 @@ const Hero = () => {
               <a className="btn">learn more</a>
             </Link>
           </div>
-        </div>
-      </Fade>
+        </Fade>
+      </div>
 
       <div className="flex justify-center">
         <img
