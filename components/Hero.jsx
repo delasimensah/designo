@@ -13,7 +13,7 @@ const Hero = () => {
         style={{ zIndex: -1 }}
       />
 
-      <div className="pt-10 space-y-10 text-white border border-black lg:w-3/5 md:pt-16 lg:py-16 xl:py-16">
+      <div className="pt-10 space-y-10 text-white lg:w-3/5 md:pt-16 lg:py-16 xl:py-16">
         <h1 className="text-2xl font-medium text-center md:text-4xl xl:text-5xl lg:text-left">
           Award-winnning custom designs and digital branding solutions
         </h1>
@@ -31,7 +31,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="flex justify-center">
+      <div className="flex justify-center border border-black">
         <img
           src="/assets/home/desktop/image-hero-phone.png"
           alt="phone"
