@@ -9,11 +9,11 @@ const Hero = () => {
       <img
         src="/assets/home/desktop/bg-pattern-hero-home.svg"
         alt=""
-        className="absolute transform scale-150 border md:scale-90 lg:scale-100 top-40 md:top-16 lg:top-0 -right-24 lg:right-0 md:-right-36"
+        className="absolute transform scale-150 md:scale-90 lg:scale-100 top-40 md:top-16 lg:top-0 -right-24 lg:right-0 md:-right-36"
         style={{ zIndex: -1 }}
       />
 
-      <div className="pt-10 space-y-10 text-white border lg:w-3/5 md:pt-16 lg:py-16 xl:py-16">
+      <div className="pt-10 space-y-10 text-white border border-black lg:w-3/5 md:pt-16 lg:py-16 xl:py-16">
         <h1 className="text-2xl font-medium text-center md:text-4xl xl:text-5xl lg:text-left">
           Award-winnning custom designs and digital branding solutions
         </h1>
@@ -31,7 +31,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="flex justify-center border">
+      <div className="flex justify-center">
         <img
           src="/assets/home/desktop/image-hero-phone.png"
           alt="phone"
