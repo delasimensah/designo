@@ -1,4 +1,5 @@
 import React from "react";
+import Fade from "react-reveal/Fade";
 
 const Location = ({
   desktop,
@@ -51,25 +52,27 @@ const Location = ({
           className="absolute transform scale-150 top-20 left-20 md:hidden"
         />
 
-        <div className="space-y-10 py-14 md:p-20">
-          <h1 className="text-2xl tracking-wider text-center uppercase md:text-left text-peach">
-            {title}
-          </h1>
+        <Fade distance="40px" left>
+          <div className="space-y-10 py-14 md:p-20">
+            <h1 className="text-2xl tracking-wider text-center uppercase md:text-left text-peach">
+              {title}
+            </h1>
 
-          <div className="flex flex-col space-y-5 md:space-x-10 md:flex-row md:space-y-0">
-            <div className="text-center md:text-left">
-              <p className="font-bold">{office}</p>
-              <p>{street}</p>
-              <p>{address}</p>
-            </div>
+            <div className="flex flex-col space-y-5 md:space-x-10 md:flex-row md:space-y-0">
+              <div className="text-center md:text-left">
+                <p className="font-bold">{office}</p>
+                <p>{street}</p>
+                <p>{address}</p>
+              </div>
 
-            <div className="text-center md:text-left">
-              <p className="font-bold capitalize">contact</p>
-              <p>{phone}</p>
-              <p>{mail}</p>
+              <div className="text-center md:text-left">
+                <p className="font-bold capitalize">contact</p>
+                <p>{phone}</p>
+                <p>{mail}</p>
+              </div>
             </div>
           </div>
-        </div>
+        </Fade>
       </div>
     </div>
   );

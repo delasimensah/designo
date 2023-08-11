@@ -1,4 +1,5 @@
 import React from "react";
+import Fade from "react-reveal/Fade";
 
 //components
 import CallToAction from "../components/CallToAction";
@@ -56,15 +57,18 @@ const About = () => {
               className="absolute hidden transform rotate-90 -top-96 -left-64 lg:-top-60 lg:left-0 lg:bottom-0 lg:right-0 md:block"
             />
 
-            <h1 className="z-0 text-3xl md:text-4xl lg:text-5xl">About Us</h1>
+            <Fade distance="40px" left>
+              <h1 className="z-0 text-3xl md:text-4xl lg:text-5xl">About Us</h1>
 
-            <p className="z-0 text-center lg:text-left">
-              Founded in 2010, we are a creative agency that produces lasting
-              results for our clients. We’ve partnered with many startups,
-              corporations, and nonprofits alike to craft designs that make real
-              impact. We’re always looking forward to creating brands, products,
-              and digital experiences that connect with our clients' audiences.
-            </p>
+              <p className="z-0 text-center lg:text-left">
+                Founded in 2010, we are a creative agency that produces lasting
+                results for our clients. We’ve partnered with many startups,
+                corporations, and nonprofits alike to craft designs that make
+                real impact. We’re always looking forward to creating brands,
+                products, and digital experiences that connect with our clients'
+                audiences.
+              </p>
+            </Fade>
           </div>
         </div>
 
@@ -102,48 +106,52 @@ const About = () => {
               className="absolute bottom-0 lg:hidden -left-10"
             />
 
-            <h1 className="z-0 text-3xl md:text-4xl lg:text-5xl text-peach">
-              World-class talent
-            </h1>
+            <Fade distance="40px" left>
+              <h1 className="z-0 text-3xl md:text-4xl lg:text-5xl text-peach">
+                World-class talent
+              </h1>
 
-            <p className="z-0 text-center text-black lg:text-left">
-              We are a crew of strategists, problem-solvers, and technologists.
-              Every design is thoughtfully crafted from concept to launch,
-              ensuring success in its given market. We are constantly updating
-              our skills in a myriad of platforms.
-            </p>
+              <p className="z-0 text-center text-black lg:text-left">
+                We are a crew of strategists, problem-solvers, and
+                technologists. Every design is thoughtfully crafted from concept
+                to launch, ensuring success in its given market. We are
+                constantly updating our skills in a myriad of platforms.
+              </p>
 
-            <p className="z-0 text-center text-black lg:text-left">
-              Our team is multi-disciplinary and we are not merely interested in
-              form — content and meaning are just as important. We give great
-              importance to craftsmanship, service, and prompt delivery. Clients
-              have always been impressed with our high-quality outcomes that
-              encapsulates their brand’s story and mission.
-            </p>
+              <p className="z-0 text-center text-black lg:text-left">
+                Our team is multi-disciplinary and we are not merely interested
+                in form — content and meaning are just as important. We give
+                great importance to craftsmanship, service, and prompt delivery.
+                Clients have always been impressed with our high-quality
+                outcomes that encapsulates their brand’s story and mission.
+              </p>
+            </Fade>
           </div>
         </div>
 
-        <div className="container grid mt-20 gap-7 lg:grid-cols-3 md:mt-0">
-          <AboutIconCard
-            src="/assets/shared/desktop/illustration-canada.svg"
-            location="canada"
-            clock
-            left
-          />
+        <Fade distance="40px" left>
+          <div className="container grid mt-20 gap-7 lg:grid-cols-3 md:mt-0">
+            <AboutIconCard
+              src="/assets/shared/desktop/illustration-canada.svg"
+              location="canada"
+              clock
+              left
+            />
 
-          <AboutIconCard
-            src="/assets/shared/desktop/illustration-australia.svg"
-            location="australia"
-            top
-          />
+            <AboutIconCard
+              src="/assets/shared/desktop/illustration-australia.svg"
+              location="australia"
+              top
+            />
 
-          <AboutIconCard
-            src="/assets/shared/desktop/illustration-united-kingdom.svg"
-            location="united kingdom"
-            anti
-            bottom
-          />
-        </div>
+            <AboutIconCard
+              src="/assets/shared/desktop/illustration-united-kingdom.svg"
+              location="united kingdom"
+              anti
+              bottom
+            />
+          </div>
+        </Fade>
 
         <div className="grid my-20 overflow-hidden bg-white banner lg:grid-cols-5 md:my-0">
           <div className="lg:col-span-2 lg:col-start-4">
@@ -179,23 +187,26 @@ const About = () => {
               className="absolute bottom-0 lg:hidden -left-10"
             />
 
-            <h1 className="z-0 text-3xl md:text-4xl lg:text-5xl text-peach">
-              The real deal
-            </h1>
+            <Fade distance="40px" left>
+              <h1 className="z-0 text-3xl md:text-4xl lg:text-5xl text-peach">
+                The real deal
+              </h1>
 
-            <p className="z-0 text-center text-black lg:text-left">
-              As strategic partners in our clients’ businesses, we are ready to
-              take on any challenge as our own. Solving real problems require
-              empathy and collaboration, and we strive to bring a fresh
-              perspective to every opportunity. We make design and technology
-              more accessible and give you tools to measure success.
-            </p>
+              <p className="z-0 text-center text-black lg:text-left">
+                As strategic partners in our clients’ businesses, we are ready
+                to take on any challenge as our own. Solving real problems
+                require empathy and collaboration, and we strive to bring a
+                fresh perspective to every opportunity. We make design and
+                technology more accessible and give you tools to measure
+                success.
+              </p>
 
-            <p className="z-0 text-center text-black lg:text-left">
-              We are visual storytellers in appealing and captivating ways. By
-              combining business and marketing strategies, we inspire audiences
-              to take action and drive real results.
-            </p>
+              <p className="z-0 text-center text-black lg:text-left">
+                We are visual storytellers in appealing and captivating ways. By
+                combining business and marketing strategies, we inspire
+                audiences to take action and drive real results.
+              </p>
+            </Fade>
           </div>
         </div>
 

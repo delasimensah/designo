@@ -1,4 +1,5 @@
 import React from "react";
+import Fade from "react-reveal/Fade";
 
 //components
 import AboutIconCard from "../components/AboutIconCard";
@@ -29,18 +30,20 @@ const Contact = () => {
           />
 
           <div className="grid text-white lg:grid-cols-2">
-            <div className="relative z-10 flex flex-col justify-center p-10 space-y-5 lg:p-20">
-              <h1 className="text-3xl text-center capitalize md:text-4xl lg:text-5xl md:text-left">
-                Contact us
-              </h1>
+            <Fade distance="40px" left>
+              <div className="relative z-10 flex flex-col justify-center p-10 space-y-5 lg:p-20">
+                <h1 className="text-3xl text-center capitalize md:text-4xl lg:text-5xl md:text-left">
+                  Contact us
+                </h1>
 
-              <p className="text-center md:text-left">
-                Ready to take it to the next level? Let’s talk about your
-                project or idea and find out how we can help your business grow.
-                If you are looking for unique digital experiences that’s
-                relatable to your users, drop us a line.
-              </p>
-            </div>
+                <p className="text-center md:text-left">
+                  Ready to take it to the next level? Let’s talk about your
+                  project or idea and find out how we can help your business
+                  grow. If you are looking for unique digital experiences that’s
+                  relatable to your users, drop us a line.
+                </p>
+              </div>
+            </Fade>
 
             <div className="p-10 space-y-5">
               <form className="relative z-10 space-y-7">

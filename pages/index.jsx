@@ -47,30 +47,32 @@ const Home = () => {
           />
         </div>
 
-        <div className="container grid gap-5 lg:grid-cols-3">
-          <IconCard
-            title="Passionate"
-            text="Each project starts with an in-depth brand research to ensure we only create products that serve a purpose. We merge
+        <Fade distance="40px" left cascade>
+          <div className="container grid gap-5 lg:grid-cols-3">
+            <IconCard
+              title="Passionate"
+              text="Each project starts with an in-depth brand research to ensure we only create products that serve a purpose. We merge
  art, design, and technology into exciting new solutions."
-            icon="/assets/home/desktop/illustration-passionate.svg"
-          />
+              icon="/assets/home/desktop/illustration-passionate.svg"
+            />
 
-          <IconCard
-            title="Resourceful"
-            text="Everything that we do has a strategic purpose. We use an agile approach in all of our projects and value customer
+            <IconCard
+              title="Resourceful"
+              text="Everything that we do has a strategic purpose. We use an agile approach in all of our projects and value customer
  collaboration. It guarantees superior results that fulfill our clients’ needs."
-            icon="/assets/home/desktop/illustration-resourceful.svg"
-            half
-          />
+              icon="/assets/home/desktop/illustration-resourceful.svg"
+              half
+            />
 
-          <IconCard
-            title="Friendly"
-            text="We are a group of enthusiastic folks who know how to put people first. Our success depends on our customers, and we
+            <IconCard
+              title="Friendly"
+              text="We are a group of enthusiastic folks who know how to put people first. Our success depends on our customers, and we
  strive to give them the best experience a company can provide."
-            icon="/assets/home/desktop/illustration-friendly.svg"
-            full
-          />
-        </div>
+              icon="/assets/home/desktop/illustration-friendly.svg"
+              full
+            />
+          </div>
+        </Fade>
 
         <CallToAction />
       </div>
