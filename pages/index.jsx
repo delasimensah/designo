@@ -47,7 +47,7 @@ const Home = () => {
           />
         </div>
 
-        <Fade distance="40px" left cascade>
+        <Fade distance="40px" left>
           <div className="container grid gap-5 lg:grid-cols-3">
             <IconCard
               title="Passionate"
